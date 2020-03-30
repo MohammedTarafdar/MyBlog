@@ -1,0 +1,83 @@
+body{
+    padding: 0;
+    margin: 0 auto;
+    font-family: 'Lora', serif;
+    background-image: url("images/IMG_1.JPG");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+header{
+    background:rgba(0, 0, 0, 0.3);
+    height: 60px;
+    
+}
+header * {
+    color: rgb(12, 12, 12);
+}
+header .logo{
+    float: left;
+    height: inherit;
+}
+header .logo-text{
+    margin: 6px;
+    font-size: 30px;
+}
+.logo-text-one{
+    color: red;
+    font-family: 'Monoton', cursive;
+}
+header ul{
+    float: right;
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+header ul li {
+    float: left;
+    position: relative;
+}
+header ul li ul{
+    position: absolute;
+    top: 66px;
+    display: none;
+}
+header ul li:hover ul {
+    display: block;
+}
+header ul li a {
+    display: block;
+    padding: 20px;
+    font-size: 16px;
+    text-decoration: none;
+}
+header ul li a:hover {
+    background: #f6f6f6;
+    transition: 0.5s;
+}
+img{
+    border: 5px solid white;
+    border-radius: 15px;
+    margin: 40px 0px 0px 0px;
+    height: 250px;
+ 	width: 300px;
+}
+h1{
+    text-align: center;
+    font-size: 75px;
+    margin: 200px 0px 100px 0px;
+}
+h2{
+    text-align: center;
+    font-size: 50px;
+}
+footer {
+    position: fixed;
+   	left: 0;
+   	bottom: 0;
+   	width: 100%;
+   	background-color: rgba(0, 0, 0, 0.3);
+   	color: white;
+	text-align: right;
+}
